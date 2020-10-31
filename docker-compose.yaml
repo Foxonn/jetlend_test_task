@@ -1,0 +1,20 @@
+version: '3'
+
+services:
+  app:
+    build: .
+    ports:
+      - '8000:8000'
+    volumes:
+      - ./app/:/app/
+    depends_on:
+      - db
+  db:
+    image: postgres
+    environment:
+      - POSTGRES_PASSWORD=185335
+      - POSTGRES_USER=postgres
+      - POSTGRES_DB=jetlend_q
+      - PGDATA=/var/lib/postgresql/data/pgdata
+    volumes:
+      - ./db:/var/lib/postgresql/data:z
