@@ -132,7 +132,7 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
-LOG_PATH = os.path.join(BASE_DIR, 'log')
+LOG_PATH = os.path.join(BASE_DIR, 'logs')
 
 LOGGING = {
     'version': 1,
