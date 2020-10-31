@@ -1,6 +1,6 @@
 ## How to right run app
 
-` create empty directory 'db', he needs for postgres`
+` create empty directory 'db', it needs for postgres`
 
 `docker-compose up --build`
 
