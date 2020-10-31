@@ -1,8 +1,8 @@
 ## How to right run app
 
-1. `docker-composer up --build`
+1. `docker-compose up --build`
 
-0. `In container 'app' execution cli 'python jl_app/manage.py makemigrations'
+0. `In container 'app' you need executed 'python jl_app/manage.py makemigrations'
     and 'python jl_app/manage.py migrate'`
 
 0. `python jl_app/manage.py createsuperuser`
