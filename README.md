@@ -2,7 +2,7 @@
 
 `docker-compose up --build`
 
-`In container 'app' you need executed 'python jl_app/manage.py makemigrations'
+`in container 'app' you need executed 'python jl_app/manage.py makemigrations'
     and 'python jl_app/manage.py migrate'`
 
 `python jl_app/manage.py createsuperuser`
