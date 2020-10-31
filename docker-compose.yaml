@@ -16,5 +16,3 @@ services:
       - POSTGRES_USER=postgres
       - POSTGRES_DB=jetlend_q
       - PGDATA=/var/lib/postgresql/data/pgdata
-    volumes:
-      - ./db:/var/lib/postgresql/data:z

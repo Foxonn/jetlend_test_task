@@ -18,6 +18,7 @@ class CurrentUserPassportDefault:
 
 class QualificationInitSerializer(serializers.ModelSerializer):
     """Инициализаця квалификации"""
+    user = serializers.HiddenField(default=serializers.CurrentUserDefault())
 
     class Meta:
         model = Qualification
