@@ -1,7 +1,5 @@
 ## How to right run app
 
-` create empty directory 'db', he needs for postgres`
-
 `docker-compose up --build`
 
 `In container 'app' you need executed 'python jl_app/manage.py makemigrations'
